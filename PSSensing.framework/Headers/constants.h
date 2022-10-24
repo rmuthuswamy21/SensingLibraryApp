@@ -1,0 +1,85 @@
+//
+//  constants.h
+//  PathMate
+//
+//  Created by Varun Mishra on 10/2/17.
+//  Copyright © 2017 Dartmouth College. All rights reserved.
+//
+
+#ifndef constants_h
+#define constants_h
+/*
+ =======================================
+ 
+ System Settings, and Constants. DO NOT EDIT these!
+ 
+ =======================================
+
+ */
+
+#define LAST_SCAN_WIFI  @"LAST_SCAN_WIFI"
+
+#define LAST_SCAN_BLUETOOTH   @"LAST_SCAN_BLUETOOTH"
+
+#define LAST_ACTIVITY_UPDATE  @"LAST_ACTIVITY_UPDATE"
+
+#define LAST_UPLOAD_TIME  @"LAST_UPLOAD_TIME"
+
+#define LAST_BLUETOOTH_ALERT_TIME @"LAST_BLUETOOTH_ALERT_TIME"
+
+#define LAST_LOCATION_UPDATE  @"LAST_LOCATION_UPDATE"
+
+#define LAST_START_ACC  @"LAST_START_ACC"
+
+#define LAST_ACTIVITY_DUMP @"LAST_ACTIVITY_DUMP"
+
+#define LAST_HK_DUMP @"LAST_HK_DUMP"
+#define HK_DATA_TYPES @"HK_DATA_TYPES"
+
+#define LAST_TIME_EVENT @"LAST_TIME_EVENT"
+
+#define LAST_DB_DUMP_TIME @"LAST_DB_DUMP_TIME"
+
+#define HOME_LOCATION @"HOME_LOCATION"
+#define WORK_LOCATION @"WORK_LOCATION"
+
+
+#define LAST_KNOWN_ACTIVITY @"LAST_KNOWN_ACTIVITY"
+#define LAST_KNOWN_LOCATION @"LAST_KNOWN_LOCATION"
+#define LAST_KNOWN_BATTERY_LEVEL @"LAST_KNOWN_BATTERY_LEVEL"
+#define LAST_KNOWN_BATTERY_STATUS @"LAST_KNOWN_BATTERY_STATUS"
+#define LAST_KNOWN_BRIGHTNESS @"LAST_KNOWN_BRIGHTNESS"
+#define LAST_KNOWN_SCREEN_STATE @"LAST_KNOWN_SCREEN_STATE"
+#define LAST_KNOWN_LOCK_STATE @"LAST_KNOWN_LOCK_STATE"
+#define LAST_KNOWN_WIFI @"LAST_KNOWN_WIFI"
+
+
+
+#define EVENT_ID_BATTERY 11
+#define EVENT_ID_BATTERY_STATE 111  // 0 unknown, 1 unplegged, 2 charging, 3 full
+#define EVENT_ID_BRIGHTNESS 13
+#define EVENT_ID_LOCK_UNLOCK 14
+#define EVENT_ID_LOCATION_JS 15
+#define EVENT_ID_LOCATION_ALL 151
+#define EVENT_ID_LOCATION_APP 152
+#define EVENT_ID_ACTIVITY 16
+#define EVENT_ID_MOTION 17
+#define EVENT_ID_WIFI 18
+#define EVENT_ID_WIFI_STATE 181
+#define EVENT_ID_BLUETOOTH 19
+#define EVENT_ID_ACCELEROMETER  20
+#define EVENT_ID_STEP 21
+#define EVENT_ID_HEALTH_KIT 22
+#define EVENT_ID_CALL_LOG 23
+#define EVENT_ID_AUDIO_INFERENCE 24
+#define EVENT_ID_CONVO 241
+
+
+
+
+#define KEY_USER_ID @"USER_ID"
+#define KEY_DEVICE_ID @"DEVICE_ID"
+
+#define HK_PERMISSION_STATE @"HK_PERMISSION_STATE"
+
+#endif /* constants_h */

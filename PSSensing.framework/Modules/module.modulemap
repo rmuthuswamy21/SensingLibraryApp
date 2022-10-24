@@ -1,0 +1,6 @@
+framework module PSSensing {
+  umbrella header "PSSensing.h"
+
+  export *
+  module * { export * }
+}
